@@ -100,7 +100,7 @@
 
         try {
           // Process the file
-          const processResponse = await fetch('/process_file/', {
+          const processResponse = await fetch('https://audiotranscription-production-8a30.up.railway.app/process_file/', {
             method: 'POST',
             body: formData,
           });
